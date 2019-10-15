@@ -4,8 +4,8 @@ const About = () => {
   return (
     <div>
       <h1>About this app</h1>
-      <p>App to search Github users</p>
-      <p>Version: 1.0.0</p>
+      <p className="lead">App to search Github users</p>
+      <p className="text-secondary">Version: 1.0.0</p>
     </div>
   );
 };
